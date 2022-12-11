@@ -1,0 +1,26 @@
+/*FOOTER*/
+
+.footer {
+    background-color: rgb(60, 58, 69);
+    color: white;
+    display: flex;
+    align-items: center; 
+    justify-content:space-evenly;
+    height: 50px;
+    font-family: sans-serif;
+  }
+
+table, td {
+border: 1.5px solid grey;
+border-collapse: collapse;
+}
+
+td {
+  text-align: center;
+  font-size: 1em;
+}
+
+td span {
+  font-weight: bold;
+  font-size: 1.4em;
+}

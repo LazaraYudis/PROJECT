@@ -1,0 +1,88 @@
+ .content {
+    background-color: rgb(47, 43, 56);
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center; 
+    padding-top: 35px;
+    padding-left: 75px;
+    height: 490px;
+    font-family: sans-serif;
+  }
+  
+  .content > .content-info-wrapper {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    justify-content: center;
+    grid-gap: 25px;
+  }
+  .content > .content-info-wrapper > .content-left > .content-info {
+    font-size: 1.6em;
+    height: 290px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .content > .content-info-wrapper > .content-image img {
+    height: 440px;
+    width: 100%;
+
+  }
+  .content > .content-info-wrapper > .content-left > .content-info p {
+    font-weight: 100;
+    opacity: 0.8;
+    letter-spacing: 1px;
+    font-size: 1.3em;
+  }
+
+  .content > .content-info-wrapper > .content-left > .content-info span {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+  }
+
+  .content > .content-info-wrapper > .content-left > .content-info h1 {
+    width: 100%;
+    font-size: 1.3em;
+    color: grey;
+
+  }
+
+  .content > .content-info-wrapper > .content-image span {
+    color: aqua;
+  }
+
+  .content > .content-info-wrapper > .content-left > .buttons {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-right: 310px;
+    height: 52px;
+    text-align: left;
+  }
+
+  .sign-btn {
+    background-color: rgb(123, 248, 123);
+    color: black;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    border: 0.9px solid rgb(123, 248, 123);
+    border-radius: 3px;
+    outline: none;
+  
+  }
+
+  .learn-btn {
+    background-color: rgb(13, 12, 12);
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    border: 0.9px solid rgb(13, 12, 12);
+    border-radius: 3px;
+    outline: none;
+ 
+  }
+

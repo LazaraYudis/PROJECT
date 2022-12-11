@@ -1,0 +1,84 @@
+.header {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 30px 60px;
+    height: 20px;
+    font-family: sans-serif;
+}
+
+.header > .left-column {
+  display: flex;
+  justify-content: center;
+}
+.header > .left-column img {
+  height: 100%;
+  width: 130px;
+}
+
+.header > .center-column {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0px;
+    width: 510px;
+    font-weight: 550;
+
+}
+
+.header > .center-column > .explore {
+    display: flex;
+    color: rgb(225, 225, 73);
+    align-items: flex-start;
+    justify-content: space-between;
+    font-weight: 450;
+    margin-bottom: -20px;
+    margin-top: 4px;
+   
+}
+
+.header > .center-column > .navigation-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header > .center-column > .navigation-wrapper > .spark {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.9em;
+  opacity: 0.8;
+  font-weight: 350;
+
+}
+
+.header > .right-column {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+align-items: center;
+
+}
+
+.header > .right-column > .create i {
+color: rgb(123, 248, 123);
+} 
+
+.button {
+background-color: grey;
+color: white;
+padding: 10px 10px;
+font-size: 0.8em;
+font-weight: bolder;
+border: 0.9px solid grey;
+border-radius: 3px;
+outline: none;
+font-size: 1em;
+}
+
+.header > .right-column > .lupa {
+font-size: larger;
+text-align: center;
+opacity: 0.6;
+}
